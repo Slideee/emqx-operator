@@ -40,4 +40,13 @@ resources:
   kind: EmqxPlugin
   path: github.com/emqx/emqx-operator/apis/apps/v1beta3
   version: v1beta3
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: emqx.io
+  group: apps
+  kind: EMQX
+  path: github.com/emqx/emqx-operator/apis/apps/v2alpha1
+  version: v2alpha1
 version: "3"
